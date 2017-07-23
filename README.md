@@ -1,5 +1,4 @@
-#templates for acm-icpc
-
+# templates for acm-icpc
 
 * DataStructure
 	* LT 左偏树
