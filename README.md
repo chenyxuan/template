@@ -1,5 +1,6 @@
 #templates for acm-icpc
 
+
 * DataStructure
 	* LT 左偏树
 * Graph
