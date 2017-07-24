@@ -22,7 +22,7 @@ void FFT(complex *X,int n,int flag)
 			for(int j = 0; j < (m >> 1); wk = wk * wm, j++)
 			{
 			    complex u = X[i + j], t = wk * X[i + j + (m >> 1)];
-			    X[i + j] = u + t, X[i + j + (m>>1)] = u - t;
+			    X[i + j] = u + t, X[i + j + (m >> 1)] = u - t;
 			}
 		}
 	}
