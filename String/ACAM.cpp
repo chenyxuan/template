@@ -11,7 +11,7 @@ void insert(char *t,TrieNode *now)
         return;
     }
 
-    TrieNode *&next = now->p[(*t)-'A'];
+    TrieNode *&next = now->p[(*t) - 'A'];
 
     if(!next) next = NewNode();
     insert(t + 1, next);
