@@ -1,3 +1,6 @@
+#include <complex>
+typedef std::complex<double> complex;
+const double pi = acos(-1);
 
 void FFT(complex *X,int n,int flag)
 {
