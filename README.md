@@ -2,6 +2,7 @@
 
 * DataStructure
 	* LT 左偏树
+	* SPALY 平衡树
 * Graph
 	* KM 二分图最大权匹配
 	* PBC 点双连通分量
@@ -13,5 +14,7 @@
 * String
 	* ACAM AC自动机
 	* SA 后缀数组
+	* PT 回文树
+	* KMP 开门跑算法
 * Tree
 	* LCT 动态树
