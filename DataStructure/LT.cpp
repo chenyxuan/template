@@ -14,5 +14,6 @@ int merge(int x,int y)
 	if(d[l[x]] < d[r[x]]) std::swap(l[x], r[x]);//调整树的结构，使其满足左偏性质
 
 	d[x] = d[r[x]] + 1;
+	
 	return x;
 }
