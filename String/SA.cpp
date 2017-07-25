@@ -8,7 +8,7 @@ void build_sa(int m)
 	for(int i = 1; i <= m; i++) cur[i] += cur[i - 1];
 	for(int i = n; i >= 1; i--) sa[cur[x[i]]--] = i;
 	
-	for(int k = 1; k <= n; k<<=1)
+	for(int k = 1; k <= n; k <<= 1)
 	{
 		int p = 0;
 		
