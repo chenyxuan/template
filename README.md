@@ -9,6 +9,7 @@
 * Math
 	* FFT 快速傅氏变换
 	* NTT 快速数论变换
+	* LUCAS lucas定理求组合数(p是质数)
 * NetFlow
 	* DINIC 网络流(分层优化+当前弧优化)
 * String
